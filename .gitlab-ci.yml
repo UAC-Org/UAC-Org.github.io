@@ -1,0 +1,8 @@
+image: busybox
+
+pages:
+  script:
+    - echo "Deploying..."
+  artifacts:
+    paths:
+      - public
